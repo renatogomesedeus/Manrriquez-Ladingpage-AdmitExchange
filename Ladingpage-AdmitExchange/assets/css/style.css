@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Sriracha&display=swap');
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;  
+  font-family: 'Comfortaa';
+}
+
+/* ==================== SECTION 1 =============================== */
+
+
+/*body {
+  font: normal 35px Arial, Verdana, serif;
+  text-align: center;
+  
+  background-color: rgb(224, 224, 226);
+  
+}*/
+.conteiner {
+  height: 660px;
+  background: linear-gradient(#00000080,#00000080 100%), url(../img/Rectangle\ 2.png);
+  background-size: cover;
+
+}
+
+li {
+  margin: 0px 15px 0px 11px;
+}
+.nav {
+  /* background: #000; */
+  align-content: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 25px 1px 25px;
+}
+ul {
+  list-style-type: none;
+  margin-top: 25px;
+  display: inline-flex;
+  color: #fff;
+}
+
+.section_1 h2{
+  margin-top: -35px;
+ font-size: 45px;
+
+}
+
+.section_1 h2:hover{
+  opacity: 0.6;
+
+}
+.caixa_section_1 {
+  display: flex;
+}
+.caixa_menor {
+  width: 30%;
+  background: #ffd70030;
+}
+.caixa_maior {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color:rgb(255, 215, 0);;
+}
+.caixa_title_logo {
+  display: flex;
+  align-items: center;
+}
+.botao_caixa {
+  height: 35px;
+    border-radius: 19px;
+    border: none;
+    background: #000;
+    color: #fff;
+    width: 109px;
+}
+.section_1  h3 {
+margin-top: 70px;
+font-size: 15px;
+}
+
+.section_1 h3:hover {
+  opacity: 0.6;
+  }
+
+#divBusca{
+background-color:#d9dddd;
+border-radius: 15px;
+
+width: 350px;
+margin-top: -1120px;
+margin-left: auto;
+margin-right: auto;
+width: 15em
+   
+      
+}
+
+#divBusca:hover {
+
+  opacity: 0.4;
+  position: relative;
+}
+
+.divbusca h4{
+  color: rgb(255, 245, 245);
+  margin-top: -50px;
+}
+
+
+.divbusca2{
+  
+  background-color: #ffd700;
+  position: relative;
+  height: 150px;
+  width: 90vw;
+   margin-top: 60px;
+   border-radius: 15px;
+   padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 50px; 
+ }
+
+  
+ .alinhamento{
+  left: 150px;
+  position: relative;
+ margin-top: -initial;
+  
+  
+ }
+ .bloco{
+  
+   position: relative;
+   right: 500px;
+   height: -300px;
+   float: none;
+   margin-top: -85px;
+ }
+ 
+
+#txtBusca{
+
+background-color: transparent;
+padding-left:5px;
+font-style:italic;
+font-size:18px;
+border:none;
+height: 20px;
+width:450px;
+border-style: solid;
+color: transparent;
+border-radius:15px;
+
+}
+
+
+.section_1{
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  margin-top: 10%;
+}
+
+
+
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}*/
+
+/*body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #000;
+}*/
+
+.section_1 h1 {
+  color: #fff;
+  font-size: 65px;
+  padding-bottom: 30px;
+  text-transform: uppercase;
+  position: 80px;
+}
+.section_1 h1:hover{
+  opacity: 0.6;
+  }
+
+.relogio{
+  position:relative;
+  left:-42%;
+  }
+ .relogio:hover{
+  opacity: 0.6;
+  }
+  input.search_section1 {
+    height: 45px;
+    width: 45%;
+    border-radius: 20px;
+    border: none;
+    background: #fff;
+    opacity: 0.4;
+}
+
+ 
+ 
+  
+  
+
+/* ==================== SECTION 1 =============================== */
+
+/* ========================================================================= */
+
+
+/* ==================== SECTION 2 =============================== */
+
+.section-2{
+    background: #000;
+    width: 100%;
+    height: 85ch;
+    text-align: center;
+    color: #fff;
+   
+}
+.section-2 h1{
+  position: relative;
+  font-size: 60px;
+  top: 2ch;
+  position: relative;
+  opacity: 0.1;
+}
+.section-2 h2{
+  position: relative;
+  top: 1.5ch;
+  font-size: 35px;
+}
+.amarelo{
+    color: #F5BD02;
+}
+.amre{
+    background: #F5BD02;
+    width: 100%;
+    height: 100%;
+    
+}
+/*----------imagems pequenas ---------*/
+.imgA{
+  position: relative;
+  left: -64ch;
+  top: 12ch;
+}
+.imgB{
+  position: relative;
+  width: 3ch;
+  left: 40ch;
+  top: 14ch;
+}
+.imgC{
+  position: relative;
+  width: 3ch;
+  left: -60ch;
+  top: 40ch;
+}
+.imgD{
+  position: relative;
+  width: 3ch;
+  left: 53ch;
+  top: 40ch;
+}
+.imgE{
+  position: relative;
+  width: 2ch;
+  left: 40ch;
+  top: 78ch;
+}
+.grupoDeimagemA{
+    display: flex;
+    top: -10ch;
+
+}
+.show {
+    position: relative;
+    width: 25ch;
+    height: 27ch;
+    color: #fff;
+    margin: 0.3ch;
+    top: 1ch;
+    left: 22ch;
+    z-index: 3;
+}
+.show img{
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    transition: 1s;
+    cursor: pointer;
+    
+}
+.show img:hover{
+    opacity: 0.5;
+}
+.sho{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F5BD02;
+    z-index: 2;
+}
+.show h1{
+  position: relative;
+  top: 5.5ch;
+  margin: 1.5ch;
+  z-index: 5;
+  text-align: justify;
+}
+.show h3{
+    position: relative;
+    top: 5.5ch;
+    margin: 1.5ch;
+    z-index: 5;
+    text-align: justify;
+    
+}
+
+.grupoDeimagemB{
+  position: relative;
+    display: flex;
+  margin-bottom: 10ch;
+   
+}
+
+
+/* ==================== SECTION 2 =============================== */
+
+/* ============================================================================= */
+
+
+/* ==================== SECTION 3 =============================== */
+
+.section-3 {
+  background-color:  #1C1D29;
+  height: 450px;
+}
+.title_section3 {
+  text-align: center;
+}
+.section-3 h2 {
+  color: #fff;
+  font-size: 35px;
+}
+.section-3 h1 {
+  font-size: 65px;
+    position: relative;
+    top: 48px;
+    color: #ffffff1a;
+}
+.section-3 small {
+  color: #fff;
+}
+.circles_boxes {
+  display: flex;
+    justify-content: center;
+    white-space: break-spaces;
+    margin-top: 25px;
+
+}
+
+.btn_section4 {
+  text-align: center;
+  margin-top: 25px;
+}
+.btn_section4 button{
+  background-color: #F5BD02;
+    width: 138px;
+    height: 40px;
+    border-radius: 22px;
+    border: #ffdead;
+}
+/* ==================== SECTION 3 =============================== */
+
+/* ================================================================================ */
+
+/* ==================== SECTION 4 =============================== */
+
+.box{display: flex;
+
+}
+.section-4{
+  background-color: #000;
+  height: 380px
+}
+.titulo-4{
+color: white !important;
+text-align: center;
+}
+
+/* ==================== SECTION 4 =============================== */
+
+/* ===================================================================================== */
+
+/* ==================== SECTION 5 =============================== */
+div#mapa{
+    width: 100%;
+    height: 494px;
+    background-color: black;
+    background-image: url('../img/h5-map\ 1.png');
+    background-size: cover;
+    text-align: center;
+    line-height: 300px;
+}
+input#texto{
+    width: 497px;
+    height: 48px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    text-align: left;
+    box-sizing: border-box; 
+    padding-left:25px ;
+    font-size: 14px;  
+    font-family: 'Comfortaa';
+}
+div.divVector{
+    position:relative ;
+    top: -125px;
+}
+div.divVector > p{
+    color: white;
+    position: relative;
+    top: -260px;
+    font-size: 22px;
+    max-height: 40px;
+}
+footer{
+    width: 100%;
+    height: 112px;
+    background-color: #F5BD02;
+}
+#logoAdmit{
+    position: relative;
+    top: 14px;
+    left: 150px;
+}
+#txtLogoAdmit{
+    font-size: 20px;
+    position: relative;
+    top: -35px;
+    left: 150px;
+    
+}
+#ano2021{
+    font-size: 12px;
+    position: relative;
+    top: -35px;
+    left: 321px;
+}
+#acessibilidade{
+  font-size: 12px;
+  position: relative;
+  left: 400px; 
+  top: -35px; 
+}
+#acessibilidade > a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+/* ==================== SECTION 5 =============================== */
+
